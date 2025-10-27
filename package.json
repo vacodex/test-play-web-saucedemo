@@ -1,0 +1,19 @@
+{
+  "name": "test-play-web-saucedemo",
+  "version": "1.0.0",
+  "description": "Reto de automatización de pruebas para la aplicación web Saucedemo utilizando Playwright y Cucumber.",
+  "scripts": {
+    "playwright:install": "npx playwright install",
+    "test": "cucumber-js --format json:reports/cucumber-report.json",
+    "test:headed": "HEADLESS=false cucumber-js --format json:reports/cucumber-report.json",
+    "report": "node report.js"
+  },
+  "author": "Jose Luque",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2"
+  }
+}

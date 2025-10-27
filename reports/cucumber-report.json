@@ -1,0 +1,1033 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-agrega-un-producto-al-carrito-desde-la-página-de-productos---producto-\"sauce-labs-fleece-jacket\"",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "El usuario agrega un producto al carrito desde la página de productos - Producto \"Sauce Labs Fleece Jacket\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1110951875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2622961624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "el usuario agrega el producto \"Sauce Labs Fleece Jacket\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1195529290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "el contador del carrito debe ser 1",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13244499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142945625
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-agrega-un-producto-al-carrito-desde-la-página-de-productos---producto-\"sauce-labs-onesie\"",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "El usuario agrega un producto al carrito desde la página de productos - Producto \"Sauce Labs Onesie\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 445683500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2958053708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4365667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "el usuario agrega el producto \"Sauce Labs Onesie\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1200034458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "el contador del carrito debe ser 1",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11168374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 147516125
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-agrega-un-producto-al-carrito-desde-la-página-de-productos---producto-\"test.allthethings()-t-shirt-(red)\"",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "El usuario agrega un producto al carrito desde la página de productos - Producto \"Test.allTheThings() T-Shirt (Red)\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 440609624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2585666291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3978708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "el usuario agrega el producto \"Test.allTheThings() T-Shirt (Red)\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1206673291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "el contador del carrito debe ser 1",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9744749
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 158670000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-ve-el-producto-agregado-en-la-página-del-carrito---producto-\"sauce-labs-backpack\"",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "El usuario ve el producto agregado en la página del carrito - Producto \"Sauce Labs Backpack\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 773247500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2617911541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4223000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "el usuario agrega el producto \"Sauce Labs Backpack\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1200319041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "el usuario abre la página del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 584427208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "el usuario debe ver el producto \"Sauce Labs Backpack\" en la lista del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6800749
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139678916
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-ve-el-producto-agregado-en-la-página-del-carrito---producto-\"sauce-labs-bike-light\"",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "El usuario ve el producto agregado en la página del carrito - Producto \"Sauce Labs Bike Light\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 741626666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2619060459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3865249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "el usuario agrega el producto \"Sauce Labs Bike Light\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1204288166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "el usuario abre la página del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582951375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "el usuario debe ver el producto \"Sauce Labs Bike Light\" en la lista del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8136166
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139336084
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;el-usuario-ve-el-producto-agregado-en-la-página-del-carrito---producto-\"sauce-labs-bolt-t-shirt\"",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "El usuario ve el producto agregado en la página del carrito - Producto \"Sauce Labs Bolt T-Shirt\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 772775750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2654490583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3829584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "el usuario agrega el producto \"Sauce Labs Bolt T-Shirt\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1204754625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "el usuario abre la página del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614927209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "el usuario debe ver el producto \"Sauce Labs Bolt T-Shirt\" en la lista del carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7111042
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137597874
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "carrito-de-compras",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Carrito de compras",
+    "tags": [],
+    "uri": "src/test/features/cart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout---completar-compra;el-usuario-puede-completar-el-proceso-de-compra-hasta-la-confirmación",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "El usuario puede completar el proceso de compra hasta la confirmación",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 436264707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está autenticado con usuario \"standard_user\" y contraseña \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2592387374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "el usuario limpia el carrito",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3969040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "el usuario agrega el producto \"Sauce Labs Backpack\" desde la página de productos",
+            "match": {
+              "location": "src/test/steps/cart.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1205618332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "el usuario abre el carrito",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 751354374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "el usuario inicia el checkout",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623103582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "el usuario completa el formulario de envío con nombre \"Juan\" apellido \"Perez\" y código postal \"12345\"",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1538776291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "el usuario continua al resumen de pedido",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 606382791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "debe ver el producto \"Sauce Labs Backpack\" en el resumen del checkout",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7408666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "el usuario finaliza la compra",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586534915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "debería ver el mensaje de confirmación \"Thank you for your order!\"",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16280624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "debería ver el texto de despacho \"Your order has been dispatched, and will arrive just as fast as the pony can get there!\"",
+            "match": {
+              "location": "src/test/steps/checkout.step.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9115707
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 119640583
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout---completar-compra",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout - completar compra",
+    "tags": [],
+    "uri": "src/test/features/checkout.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "autenticación-de-usuario;inicio-de-sesión-exitoso-con-credenciales-válidas",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Inicio de sesión exitoso con credenciales válidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 438793750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está en la página de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1222450417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "el usuario ingresa un nombre de usuario válido \"standard_user\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531281083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "el usuario ingresa una contraseña válida \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 513467499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "el usuario hace clic en el botón de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 613744582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el usuario debería ser redirigido a la página de productos",
+            "match": {
+              "location": "src/test/steps/login.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2055208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "el usuario debería ver el título de la página de productos \"Products\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23421209
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115942749
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticación-de-usuario;inicio-de-sesión-fallido-con-credenciales-inválidas",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Inicio de sesión fallido con credenciales inválidas",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 432200291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está en la página de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 876623999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "el usuario ingresa un nombre de usuario inválido \"usuarioInvalido\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520407415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "el usuario ingresa una contraseña inválida \"contraseñaIncorrecta\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511157459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "el usuario hace clic en el botón de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543441959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "el usuario debería permanecer en la página de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13186416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "el usuario debería ver un mensaje de alerta \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17390124
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133084333
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "autenticación-de-usuario;inicio-de-sesión-fallido-por-usuario-bloqueado",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Inicio de sesión fallido por usuario bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 764274124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario está en la página de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920862542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "el usuario ingresa un nombre de usuario bloqueado \"locked_out_user\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531371291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "el usuario ingresa una contraseña válida \"secret_sauce\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 545203542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "el usuario hace clic en el botón de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 578742124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "el usuario debería permanecer en la página de inicio de sesión",
+            "match": {
+              "location": "src/test/steps/login.step.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12051874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "el usuario debería ver un mensaje de alerta \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "location": "src/test/steps/login.step.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17475833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 146147833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "autenticación-de-usuario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Autenticación de usuario",
+    "tags": [],
+    "uri": "src/test/features/login.feature"
+  }
+]
